@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navsection {
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top, #fff 80%, #c3f5ff 20%);
+}
+
+nav a {
+    font-family: 'Ramabhadra', sans-serif;
+    color: black;
+    margin: 0px 2px;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    color: #4458dc;
+    font-size: 20px;
+}
+
+nav a:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #4458dc;
+    transition: all 0.4s linear;
+}
+
+nav a:hover:before {
+    width: 5.8%;
+}
+
+.logo {
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3, #854fee);
+    padding-left: 100px;
+    border-radius: 7px;
+}
+
+.logo h1 {
+    animation: name 2s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes name {
+    from {
+        padding-left: 40px;
+    }
+
+    to {
+        padding-right: 40px;
+    }
+
+}
+
+main {
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.leftside h4 {
+    margin: 10px 90px 0;
+    font-size: 45px;
+}
+
+.leftside h2 {
+    margin: 15px 130px 0;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 40px;
+}
+
+.leftside p {
+    font-family: 'Ramabhadra', sans-serif;
+    margin: 10px 90px 0;
+    font-size: 40px;
+}
+button.hire{
+    padding: 10px;
+    margin: 15px 90px 0 ;
+    background-image: linear-gradient(#8d98e3, #854fee);
+    color: white;
+    border-radius: 8px;
+}
+button.Contact{
+    padding: 10px;
+    margin: 15px 0px 0;
+    border-radius: 8px;
+    
+}
+button.Contact:hover{
+    background-image: linear-gradient(#8d98e3, #854fee);
+    color: white;
+}
+.rightside img{
+    position: absolute;
+    top: 16%;
+    border-radius:30% 70% 27% 73% / 48% 19% 81% 52% ;
+    background-color: #e8fbff;
+    box-shadow:5px 5px 10px #8d98e3;
+}
+.downside img{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    height: 487px;
+    width:513px;
+    box-shadow:5px 5px 10px #8d98e3;
+    border-radius: 15%;
+}
+
+
+
+.leftside2 h4 {
+    position: absolute;
+    top: 85%;
+    right: 190px;
+    margin: 10px 90px 0;
+    font-size: 45px;
+}
+
+.leftside2 h2 {
+    position: absolute;
+    top: 95%;
+    right: 30px;
+    margin: 15px 130px 0;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 40px;
+}
+
+.leftside2 p {
+    position: absolute;
+    top: 105%;
+    right: 30px;
+    font-family: 'Ramabhadra', sans-serif;
+    margin: 10px 90px 0;
+    font-size: 40px;
+}
+button.hire2{
+    position: absolute;
+    top: 115%;
+    right: 290px;
+    padding: 10px;
+    margin: 15px 90px 0 ;
+    background-image: linear-gradient(#8d98e3, #854fee);
+    color: white;
+    border-radius: 8px;
+}
+button.Contact2{
+    position: absolute;
+    top:115%;
+    right: 180px;
+    padding: 10px;
+    margin: 15px 0px 0;
+    border-radius: 8px;   
+}
+button.Contact2:hover{
+    background-image: linear-gradient(#8d98e3, #854fee);
+    color: white;
+}
